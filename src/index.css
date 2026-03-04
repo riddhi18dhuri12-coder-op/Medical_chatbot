@@ -5,13 +5,17 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   
-  --color-medical-50: #f0f9ff;
-  --color-medical-100: #e0f2fe;
-  --color-medical-200: #bae6fd;
-  --color-medical-500: #0ea5e9;
-  --color-medical-600: #0284c7;
-  --color-medical-700: #0369a1;
-  --color-medical-900: #0c4a6e;
+  --color-primary-50: #f0fdfa;
+  --color-primary-100: #ccfbf1;
+  --color-primary-200: #99f6e4;
+  --color-primary-500: #14b8a6; /* Teal 500 */
+  --color-primary-600: #0d9488; /* Teal 600 */
+  --color-primary-700: #0f766e; /* Teal 700 */
+  --color-primary-900: #134e4a; /* Teal 900 */
+  
+  --color-accent-50: #ecfdf5;
+  --color-accent-100: #d1fae5;
+  --color-accent-500: #10b981; /* Emerald 500 */
 }
 
 @layer base {
@@ -37,9 +41,9 @@
 }
 
 .markdown-body strong {
-  @apply font-semibold text-medical-900;
+  @apply font-semibold text-primary-900;
 }
 
 .markdown-body h1, .markdown-body h2, .markdown-body h3 {
-  @apply font-bold text-medical-900 mt-4 mb-2;
+  @apply font-bold text-primary-900 mt-4 mb-2;
 }
